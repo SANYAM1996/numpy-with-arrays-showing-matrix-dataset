@@ -1,0 +1,48 @@
+import numpy as np
+a = np.array([10,20,30,40,50,60])
+# 2d array
+# 3*3
+b = np.array([
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+])
+
+# 3d array
+# 3*3
+c = np.array([
+    [[10, 20, 30], [40, 50, 60], [70, 80, 90]],
+    [[1, 2, 3], [4, 5, 6], [7, 8, 9]],
+    [[9, 8, 7], [6, 5, 4], [3, 2, 1]]
+])
+
+d = np.ones((5,5), dtype=np.int32)
+print (d)
+print (d.ndim)
+
+
+print (a)
+print (b)
+print (c)
+print (d)
+
+print (a.ndim)
+print (b.ndim)
+print (c.ndim)
+print (d.ndim)
+
+
+print (a.size)
+print (b.size)
+print (c.size)
+print (d.size)
+
+print (a.dtype)
+print (b.dtype)
+print (c.dtype)
+print (d.dtype)
+
+print (a.shape)
+print (b.shape)
+print (c.shape)
+print (d.shape)
